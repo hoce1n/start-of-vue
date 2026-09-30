@@ -5,12 +5,12 @@
         <h3>۲. نمایش اطلاعات با چک‌باکس</h3>
         <span>v-if / v-show</span>
       </div>
-  
+
       <label>
         <input type="checkbox"  v-model="isLoggedIn">
         ورود
       </label>
-  
+
       <div>
         <div>حالت فعال (چک‌باکس تیک‌خورده)</div>
         <div class="show" v-show="isLoggedIn">
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-  
+
       <p style="color: grey;">
         وقتی چک‌باکس خاموش است: کل این باکس باید ناپدید شود، ولی نام و نام‌خانوادگی همچنان (مخفی) در DOM بمانند و بقیه‌ی فیلدها اصلاً در DOM نباشند.
       </p>
@@ -47,7 +47,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 section {
   padding: 32px;
   background-color: white;

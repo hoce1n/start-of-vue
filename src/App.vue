@@ -7,13 +7,15 @@
     <PersonalInformation />
     <DisplayInformation />
     <CountingSystem />
+    <TimeConverter />
   </div>
 </template>
 
 <script>
-import CountingSystem from './components/CountingSystem.vue';
+import CountingSystem from './components/CountingSystem.vue'
 import DisplayInformation from './components/DisplayInformation.vue'
 import PersonalInformation from './components/PersonalInformation.vue'
+import TimeConverter from './components/TimeConverter.vue'
 
 export default {
   name: 'App',
@@ -25,7 +27,10 @@ export default {
   methods: {
   },
   components: {
-    PersonalInformation, DisplayInformation, CountingSystem
+    PersonalInformation,
+    DisplayInformation,
+    CountingSystem,
+    TimeConverter
   }
 }
 </script>

@@ -34,10 +34,10 @@
     <div class="row">
       <div>
         <label for="mobile">شماره موبایل</label>
-        <input 
-          id="mobile" 
-          type="tel" 
-          placeholder="۰۹۱۲۳۴۵۶۷۸۹" 
+        <input
+          id="mobile"
+          type="tel"
+          placeholder="۰۹۱۲۳۴۵۶۷۸۹"
           style="width: 33%;"
           v-model="phoneNubmer"
         >
@@ -70,7 +70,7 @@
 <script>
 export default {
   name: 'PersonalInformation',
-  data() {
+  data () {
     return {
       firstName: null,
       lastName: null,
@@ -124,7 +124,7 @@ section .card {
   border: 1px solid rgb(216, 210, 198);
   border-radius: 8px;
   background: rgb(251, 250, 247);
-  
+
 }
 
 fieldset {

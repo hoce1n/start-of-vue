@@ -5,7 +5,7 @@
           <h3>۳. سیستم شمارش نوبت</h3>
           <span>@click, data, methods</span>
         </div>
-        <div class="showw">
+        <div class="show">
           <h4>نوبت فعلی</h4>
           <div>
               <b>{{ count }}</b>
@@ -22,26 +22,26 @@
 
 <script>
 export default {
-    name: 'TurnCounter',
-    data () {
-        return {
-            count: 0
-        }
-    },
-    methods: {
-        increase() {
-            this.count++;
-        },
-        decrease() {
-            if (this.count > 0) this.count--;
-        },
-        reset() {
-            this.count = 0;
-        }
+  name: 'TurnCounter',
+  data () {
+    return {
+      count: 0
     }
+  },
+  methods: {
+    increase () {
+      this.count++
+    },
+    decrease () {
+      if (this.count > 0) this.count--
+    },
+    reset () {
+      this.count = 0
+    }
+  }
 }
 </script>
-<style>
+<style scoped>
 section {
   padding: 32px;
   background-color: white;
@@ -64,7 +64,7 @@ section .card {
   color: gray;
 }
 
-.showw {
+.show {
   background: #F6F4F0;
   border: 1px dashed rgb(216, 210, 198);
   border-radius: 10px;
@@ -73,11 +73,11 @@ section .card {
   line-height: 1.9;
 }
 
-.showw div {
+.show div {
     text-align: center;
 }
 
-.showw b {
+.show b {
     margin: 0 auto;
   font-size: 32px;
   color: gray;
