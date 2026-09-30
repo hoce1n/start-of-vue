@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&amp;display=swap">
+    <style>
+      body {
+        margin: 0;
+        background: #F6F4F0;
+        font-family:'Vazirmatn', system-ui, sans-serif;
+        color: #211E1A
+      }
+
+      input,
+      textarea {
+        font-family: inherit;
+        font-size:16px
+      }
+
+      input:focus,
+      textarea:focus {
+        outline:2px solid #B45D33;
+        outline-offset:1px
+      }
+    </style>
   </head>
   <body>
     <noscript>
