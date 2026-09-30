@@ -6,6 +6,7 @@
     </div>
     <PersonalInformation />
     <DisplayInformation />
+    <CountingSystem />
   </div>
 </template>
 
@@ -36,8 +37,5 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-h1 {
-
 }
 </style>
