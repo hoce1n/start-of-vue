@@ -5,6 +5,7 @@
       <p>این فقط چیدمان و ظاهر است؛ منطق و رفتار Vue را خودت اضافه می‌کنی</p>
     </div>
     <PersonalInformation />
+    <DisplayInformation />
   </div>
 </template>
 
@@ -32,6 +33,9 @@ export default {
 #app {
   max-width: 900px;
   padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 h1 {
 
