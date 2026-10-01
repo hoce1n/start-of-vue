@@ -8,10 +8,12 @@
     <DisplayInformation />
     <CountingSystem />
     <TimeConverter />
+    <ColorCards />
   </div>
 </template>
 
 <script>
+import ColorCards from './components/ColorCards.vue'
 import CountingSystem from './components/CountingSystem.vue'
 import DisplayInformation from './components/DisplayInformation.vue'
 import PersonalInformation from './components/PersonalInformation.vue'
@@ -30,7 +32,8 @@ export default {
     PersonalInformation,
     DisplayInformation,
     CountingSystem,
-    TimeConverter
+    TimeConverter,
+    ColorCards
   }
 }
 </script>
