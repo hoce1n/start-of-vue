@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: $page-background;
+  font-family:'Vazirmatn', system-ui, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px 32px;
+}
+
+span {
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
