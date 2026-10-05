@@ -15,7 +15,7 @@ $text-primary: #0b1c30;
 $text-muted: gray;
 $text-white: white;
 
-$text-lg: 16px;
+$text-lg: 18px;
 $text-sm: 14px;
 $text-xs: 12px;
 
@@ -27,4 +27,10 @@ $radius-input: 8px;
 $radius-card: 12px;
 $radius-badge: 9999px;
 
+$ring-primary: 0 0 0 4px rgba(79, 70, 229, 0.15);
+$ring-success: 0 0 0 4px rgba(0, 108, 73, 0.12);
 $ring-error: 0 0 0 4px rgba(186, 26, 26, 0.15);
+
+$border-default: #c7c4d7;
+$text-primary-soft: #464555;
+$card-valid-bg: #f1f5ff;
