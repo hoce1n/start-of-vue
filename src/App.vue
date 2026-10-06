@@ -13,7 +13,7 @@
           placeholder="مثال: علی محمدی"
           :min-length="3"
           required
-          success0message="اطلاعات وارد شده شما معبتر است."
+          success-message="اطلاعات وارد شده شما معبتر است."
           validate-immediately
           @validity-change="setValidity('text', $event)"
         />
