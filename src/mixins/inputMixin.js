@@ -100,7 +100,6 @@ export default {
       this.innerValue = newValue
       this.$emit('input', newValue)
     },
-
     onBlur () {
       this.touched = true
     }
